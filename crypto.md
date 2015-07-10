@@ -19,8 +19,8 @@ with open('file') as file:
 ```
 Funciona! Temos uma solução, mas o que não vemos?
 
-IV (Initialization Vector)
-===
+##IV (Initialization Vector)
+
 Por não usarmos um IV aleatório, se alguém conseguir acesso a conteúdos cifrados é possível encontrar a relação entre os diferentes segmentos do texto criptografado e criar um dicionário para decifrar novos conteúdos
 
 Exemplos: WEP (IV não era único), SSL 2.0 (IV era derivado da última mensagem e não aleatório)
@@ -42,8 +42,8 @@ with open('file') as file:
 
 Funciona! E evitamos os problemas derivação, mas o que não vemos?
 
-HMAC (Hash-based message authentication code)
-===
+##HMAC (Hash-based message authentication code)
+
 Melhoramos a solução para melhorar a privacidade, mas há outro problema, como garantir que o conteúdo que estou decifrando foi realmente cifrado por mim? Usando HMAC, conseguimos ter mais certeza de que o que estamos tentando decifrar não foi alterado e que realmente foi cifrado por mim.
 
 #Terceira tentativa:
