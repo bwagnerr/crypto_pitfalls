@@ -79,3 +79,11 @@ Procure uma na sua linguagem!
 
 
 #Obrigado!
+
+### Jeff Stachelski
+### jeffhsta@riseup.net GPG Fingerprint: DA99 8C77 0334 F5F1 7F9C  FA29 4A51 1BED C39C 19AC
+
+### Bruno Wagner
+### bwagner@riseup.net GPG Fingerprint: 2B9A 7DE4 10EF 8F2D 63F2  F1F6 3CF6 DB20 EEA9 A97C
+
+### Link para aprensentação https://github.com/bwagnerr/crypto_pitfalls/blob/master/crypto.md
